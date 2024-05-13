@@ -1,25 +1,21 @@
-package com.homework.seventh;
+package com.experiment.e5;
 
 /**
  * @author uncle_yumo
- * @CreateDate 2024/4/20
+ * @CreateDate 2024/5/8
  * @School 无锡学院
  * @StudentID 22344131
  * @Description
  */
-public class Simulator implements Animal{
-
-    public void playSound(Animal animal) {
-        animal.cry();
-    }
+public class Dog implements Animal{
 
     @Override
     public void cry() {
-
+        System.out.println("Woof!");
     }
 
     @Override
     public String getAnimalName() {
-        return null;
+        return this.getClass().getSimpleName();
     }
 }

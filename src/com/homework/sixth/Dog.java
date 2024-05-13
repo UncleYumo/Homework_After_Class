@@ -1,4 +1,4 @@
-package com.homework.seventh;
+package com.homework.sixth;
 
 
 /**
