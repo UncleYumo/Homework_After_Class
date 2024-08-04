@@ -7,6 +7,7 @@ package com.shangguigu.thread;
  * @StudentID 22344131
  * @Description
  */
+
 public class Main {
     public static void main(String[] args) {
         ExtendThread extendThread = new ExtendThread();

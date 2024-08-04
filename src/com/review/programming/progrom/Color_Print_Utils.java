@@ -77,6 +77,9 @@ public class Color_Print_Utils {
     public void printlnPurple(String str) {
         System.out.println(Font_Color_Purple + str + Font_Color_Reset);
     }
+    public void printlnPurple(int str) {
+        System.out.println(Font_Color_Purple + str + Font_Color_Reset);
+    }
     /**
      * 打印青色字体
      * @param str 要打印的字符串
