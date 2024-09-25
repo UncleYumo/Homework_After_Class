@@ -111,4 +111,11 @@ public class Color_Print_Utils {
     public void printlnCyanBlack(String str) {
         System.out.println(Background_Color_Cyan + Font_Color_Black + str + Font_Color_Reset + Background_Color_Reset);
     }
+
+    public void programStart() {
+        printlnWhite("-------------------------- program start --------------------------\n");
+    }
+    public void programEnd() {
+        printlnWhite("\n--------------------------- program end ---------------------------");
+    }
 }

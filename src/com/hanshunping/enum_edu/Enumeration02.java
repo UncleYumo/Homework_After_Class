@@ -2,6 +2,8 @@ package com.hanshunping.enum_edu;
 
 import com.review.programming.progrom.Color_Print_Utils;
 
+import java.util.Arrays;
+
 /**
  * @author uncle_yumo
  * @CreateDate 2024/8/4
@@ -12,7 +14,6 @@ import com.review.programming.progrom.Color_Print_Utils;
 
 public class Enumeration02 {
     public static void main(String[] args) {
-        Color_Print_Utils.getInstance().printlnYellow(Season_enum.SPRING.toString());
     }
 }
 enum Season_enum {
