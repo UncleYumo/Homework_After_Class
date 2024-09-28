@@ -1,0 +1,7 @@
+Here is the code of io_test01.txt
+hello world
+你好，世界！
+happy new year!
+Hello, world!
+こんにちは、世界！
+안녕하세요, 세계!
